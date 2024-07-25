@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Start Header -->
+    <div class="headerr" >
+        <nav>
+            <div class="logo d-flex align-items-center">
+                <img src="images/logo.png" alt="photo">
+                <h2 class="fs-5 mb-0 text-light ms-2">Weather</h2>
+            </div>
+            <ul class=" gap-3 mb-0">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Live Cameras</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+            </ul>
+            <i class="fa-solid fa-bars text-light me-2"></i>
+        </nav>
+        <div class="header-content text-light">
+            <ul class="breadcrumb rounded-pill">
+                <li class="breadcrumb-item"><a class="text-secondary" href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-secondary" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="contact d-flex align-items-ce gap-5 mt-5">
+                <div class="map w-100 rounded" >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510540.8754630084!2d32.59237542990803!3d30.767209150613006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7c93a522a2815%3A0xe477acbaf916c032!2z2YXYs9in2YPZhiDYp9mE2KjYqtix2YjZhA!5e0!3m2!1sar!2seg!4v1715293401168!5m2!1sar!2seg" width="600" height="450" style="border:0; background-color: #00000030;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+                    <div class="details d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-location-dot text-info"></i>
+                        <p class="mb-0 text-secondary">Company Name INC. <br>
+                            2803 Avenue Street, Los Angeles</p>
+                    </div>
+                    <div class="phone d-flex align-items-center gap-4">
+                        <div class="phone-numder d-flex align-items-center gap-2 mt-2">
+                            <i class="fa-solid fa-phone text-info"></i>
+                            <p class="mb-0 text-secondary">01205273829</p>
+                        </div>
+                        <div class="mail d-flex align-items-center gap-2 mt-2">
+                            <i class="fa-solid fa-mail-bulk text-info"></i>
+                            <p class="mb-0 text-secondary">m7md.n3gm@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-contact" class="w-100">
+                    <h2 class="text-info">Contact Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur inventore ducimus, facilis, numquam id soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi facilis odit hic, ipsum sed!</p>
+                    <form action="" >
+                        <div class="main d-flex gap-4">
+                            <input type="text" class="form-control rounded-pill" placeholder="Your Name">
+                            <input type="email" class="form-control rounded-pill" placeholder="Your Email">
+                        </div>
+                        <div class="main d-flex gap-4 py-3">
+                            <input type="text" class="form-control rounded-pill" placeholder="Company Name">
+                            <input type="email" class="form-control rounded-pill" placeholder="Website">
+                        </div>
+                        <textarea placeholder="Message" class="form-control" style="height: 100px; border-radius: 20px; resize: none;"></textarea>
+                        <button class="btn btn-info mt-3 d-block rounded-pill mx-auto">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+    <!-- Start Footer -->
+    <div class="footer py-5">
+        <div class="main d-flex justify-content-center align-items-center gap-5">
+            <div class="search  w-75 ">
+                <input type="text" class="form-control p-3  rounded-pill" >
+            </div>
+            <div class="social d-flex align-items-center gap-2 w-25">
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-info text-dark fw-bold mt-3 d-block">Subscibe</button>
+        <p class="pt-4 text-center text-light fs-5">Copyright &copy; 2024 Company name. Designed by Menna. All rights reserved</p>
+    </div>
+    <!-- End Footer -->
+    <script src="js/main.js"></script>
+</body>
+</html>
