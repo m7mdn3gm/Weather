@@ -67,5 +67,4 @@ function displayNextDayWeather() {
         minDegree[i].innerHTML = responseData.forecast.forecastday[i + 1].day.mintemp_c;
         nextDayDescription[i].innerHTML = responseData.forecast.forecastday[i + 1].day.condition.text;
       }
-    
 }
